@@ -55,8 +55,9 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', sans-serif;
       background-size: cover;
+      border: 10px;
 }
 
 
@@ -74,33 +75,78 @@ body {
 
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
+  background-size: 100% 100%;
+  margin: 30px;
+
 }
 
 h1 {
   font-weight: 900;
   font-size: 24px;
+  color: white;
+  margin: 0 0 50px 50px;
+}
+
+.button-1 {
+  background:  #f9e42e;
+  color: black;
+  font-weight: 200px;
+  font-size: 14px;
+  border-radius: 5px;
 }
 
 #second {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 24px;
+  text-align: center;
+  height: 400px;
+  
+}
+
+h2 {
+  color: white;
 }
 
 .benefits{
+  background-color: #f0efef
   color: #033048;
   font-weight: 400;
   font-size: 20px;
+  padding: 50px;
 }
 
 .middle {
   color: #606161
+  font-weight: 200;
+  font-size: 13px;
+  padding: 50px;
 }
+
+ul {
+  list-style-type: disc;
+  color: #606161
+}
+
 
 .quote {
   background: url(../images/testimonial_bg.jpg);
   font-weight: 800;
   font-size: 18px;
+  background-size: 80px 60px;
+  height: 100px;
+  text-align: center;
+  color: white;
+}
+
+.signUp {
+  text-align: center;
+  background:  #f9e42e;
+
+}
+
+h5 {
+  text-align: center;
+  height: 100px;
 }
 
 footer {
@@ -108,6 +154,7 @@ footer {
   font-weight: 900;
   font-size: 24px;
   color: #f9e42e;
+
 }
 
 /******************************************
