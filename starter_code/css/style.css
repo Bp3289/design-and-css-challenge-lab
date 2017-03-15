@@ -76,7 +76,7 @@ body {
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: 100% 100%;
-  margin: 30px;
+  
 
 }
 
@@ -112,7 +112,6 @@ h2 {
   color: #033048;
   font-weight: 400;
   font-size: 20px;
-  padding: 50px;
 }
 
 .middle {
@@ -149,11 +148,20 @@ h5 {
   height: 100px;
 }
 
+#copy {
+  text-align: center;
+  font-size: 9px;
+  font-weight: 20px;
+  color: white;
+
+}
+
 footer {
   background: #121212;
   font-weight: 900;
   font-size: 24px;
   color: #f9e42e;
+  background-size: 100px;
 
 }
 
